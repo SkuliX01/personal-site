@@ -9,20 +9,40 @@
   height: 100%;
 }
 </style>
-<div class="flex items-center justify-center mt-5">
-  <div class="w-[580px] border-2 p-2">
+<div class="flex items-center justify-center mt-5 flex-col">
+  <div class="w-[630px] p-2">
     <div class="mr-auto">
       <li class="list-none">
         <a href="/blog" class="text-[#529295] hover:bg-[#529295] hover:text-gray-300 p-1">blog</a>
         <a href="/projects" class="text-[#529295] hover:bg-[#529295] hover:text-gray-300 p-1">projects</a>
+        <a href="/stuff" class="text-[#529295] hover:bg-[#529295] hover:text-gray-300 p-1">stuff</a>
+        <a href="/donate" class="text-[#529295] hover:bg-[#529295] hover:text-gray-300 p-1">donate</a>
       </li>
       <div class="mt-2 bg-gray-500 h-px w-full"></div>
     </div>
-    <div class="mt-10">
-      <h1 class="text-2xl font-bold">Hello Wanderer!</h1>
-      <p class="text-md ml-2">I want to welcome you to my own square of the <a href="https://en.wikipedia.org/wiki/World_Wide_Web" class="text-[#529295] underline underline-offset-2">World wide web</a>
+    <div class="mt-10 mr-auto">
+      <h1 class="text-xl font-bold">About me!</h1>
+      <p class="text-sm">I want to welcome you to my own square of the <a href="https://en.wikipedia.org/wiki/World_Wide_Web" class="text-[#529295] underline underline-offset-2">World wide web</a>
        . I'm 18 year old software developer, founder and Privacy Nomad from Poland. I begun coding in 2015 or 2016-I can't exactly remember I started from creating easy unity games from tutorials on YouTube. then in 2021 when COVID hit I was locked down at home, and thats the turing point where I really began to learn how to code.  
       </p>
+      <div class="mt-2 bg-gray-500 h-px w-full"></div>
+    </div>
+    <div class="mt-5 mr-auto">
+      <div>
+        <h1 class="font-bold text-xl">My Blog</h1>
+        <p class="text-sm">I sometimes write something that comes to my mind.</p>
+        <ul class="p-4 list-disc">
+          <li><a href="/blog/my-degoogling-story" class="text-[#529295] p-1">My Degoogling story</a></li>
+        </ul>
+      </div>
+    </div>
+        <div class="mt-5 mr-auto">
+      <div>
+        <h1 class="font-bold text-xl">Stuff</h1>
+        <p>Email: <a href="mailto:skulix@tutanota.com" class="text-[#529295] underline underline-offset-2">skulix@tutanota.com</a></p>
+        <p>Github: <a href="mailto:skulix@tutanota.com" class="text-[#529295] underline underline-offset-2">SkuliX01</a></p>
+      </div>
     </div>
   </div>
+  <footer class="text-black/30 mt-auto">© SkuliX 2025</footer>
 </div>
